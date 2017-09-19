@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Cabin", sans-serif;
+  line-height: 22px;
+  
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }

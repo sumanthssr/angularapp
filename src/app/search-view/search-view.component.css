@@ -1,0 +1,156 @@
+.list6 {
+    list-style: none;
+    text-align: center;
+}
+
+.list5 {
+    list-style: none;
+    border: solid #0C100F 1px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.article {
+    background: #D6D6CE;
+    color: #171515;
+}
+
+.article2 {
+    color: #100F0F;
+}
+
+.style {
+    background: #B3D02A;
+}
+
+.new {
+    background: #B3D02A;
+}
+
+.div {
+    background: #B3D02A;
+}
+
+.top {
+    z-index: 1;
+    position: fixed;
+}
+
+.bottom {
+    background-color: black;
+}
+
+.main {
+    color: #B3D02A !important;
+    text-align: center;
+}
+
+.formcss {
+    background: #B3D02A;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: black;
+    float: bottom;
+    width: 100%;
+}
+
+form {
+    width: 200px;
+    margin-left: 50px;
+    color: grey;
+    border-radius: 0px solid black;
+}
+
+#first {
+    background-color: black;
+}
+
+#first ul {
+    list-style-type: none;
+}
+
+#first li a {
+    color: #e3e3e3;
+    text-decoration-style: none;
+}
+
+#first li a:hover {
+    background-color: black;
+    color: orange;
+}
+
+#second {
+    margin-top: 55px;
+    background-color: black;
+}
+
+#second ul {
+    list-style-type: none;
+}
+
+#second li a {
+    color: #e3e3e3;
+    text-decoration-style: none;
+}
+
+#second li a:hover {
+    background-color: black;
+    color: orange;
+}
+
+.highlight {
+    padding: 0 5px;
+    color: #B3D02A;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(255, 255, 0, 0.0), rgba(179, 208, 42, 0.5));
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 95%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.content {
+    font-size: 18px;
+}
+
+.change {
+    color: #B3D02A;
+}
